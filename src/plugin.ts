@@ -14,7 +14,7 @@ import { ApolloFastifyPluginOptions } from "./types.js";
 import { isApolloServerLike } from "./utils.js";
 
 const pluginMetadata: PluginMetadata = {
-	fastify: "^4.4.0",
+	fastify: "^5.2.1",
 	name: "@as-integrations/fastify",
 };
 
@@ -50,12 +50,19 @@ export function fastifyApollo<
 
 	apollo.assertStarted("fastifyApollo()");
 
-	return fastifyPlugin(async (fastify, options) => {
+	/* eslint-disable @typescript-eslint/no-explicit-any */
+	return fastifyPlugin(async (fastify: any, options: any) => {
+		/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 		const { path = "/graphql", method = ["GET", "POST", "OPTIONS"], ...handlerOptions } = options;
 
+		/* eslint-disable @typescript-eslint/no-unsafe-member-access */
+		/* eslint-disable @typescript-eslint/no-unsafe-call */
 		fastify.route({
+			/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 			method,
+			/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 			url: path,
+			/* eslint-disable @typescript-eslint/no-unsafe-argument */
 			handler: fastifyApolloHandler<Context, RawServer>(apollo, handlerOptions),
 		});
 	}, pluginMetadata);
