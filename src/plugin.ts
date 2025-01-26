@@ -23,7 +23,11 @@ export function fastifyApollo<
 	TypeProvider extends FastifyTypeProvider = FastifyTypeProviderDefault,
 >(
 	apollo: ApolloServer<BaseContext>,
-): FastifyPluginAsync<Omit<ApolloFastifyPluginOptions<BaseContext, RawServer>, "context">, RawServer, TypeProvider>;
+): FastifyPluginAsync<
+	Omit<ApolloFastifyPluginOptions<BaseContext, RawServer>, "context">,
+	RawServer,
+	TypeProvider
+>;
 
 export function fastifyApollo<
 	Context extends BaseContext = BaseContext,
@@ -31,7 +35,11 @@ export function fastifyApollo<
 	TypeProvider extends FastifyTypeProvider = FastifyTypeProviderDefault,
 >(
 	apollo: ApolloServer<Context>,
-): FastifyPluginAsync<WithRequired<ApolloFastifyPluginOptions<Context, RawServer>, "context">, RawServer, TypeProvider>;
+): FastifyPluginAsync<
+	WithRequired<ApolloFastifyPluginOptions<Context, RawServer>, "context">,
+	RawServer,
+	TypeProvider
+>;
 
 export function fastifyApollo<
 	Context extends BaseContext = BaseContext,
@@ -52,17 +60,15 @@ export function fastifyApollo<
 
 	/* eslint-disable @typescript-eslint/no-explicit-any */
 	return fastifyPlugin(async (fastify: any, options: any) => {
-		/* eslint-disable @typescript-eslint/no-unsafe-assignment */
-		const { path = "/graphql", method = ["GET", "POST", "OPTIONS"], ...handlerOptions } = options;
+		const {
+			path = "/graphql",
+			method = ["GET", "POST", "OPTIONS"],
+			...handlerOptions
+		} = options;
 
-		/* eslint-disable @typescript-eslint/no-unsafe-member-access */
-		/* eslint-disable @typescript-eslint/no-unsafe-call */
 		fastify.route({
-			/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 			method,
-			/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 			url: path,
-			/* eslint-disable @typescript-eslint/no-unsafe-argument */
 			handler: fastifyApolloHandler<Context, RawServer>(apollo, handlerOptions),
 		});
 	}, pluginMetadata);

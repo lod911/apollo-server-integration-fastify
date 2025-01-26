@@ -6,19 +6,13 @@ describe("fastify specific tests", () => {
 	it("not passing in a correct instance throws", async () => {
 		const errorString = "You must pass in an instance of `ApolloServer`.";
 
-		// @ts-expect-error
 		expect(() => fastifyApollo(undefined)).toThrowError(errorString);
-		// @ts-expect-error
 		expect(() => fastifyApolloHandler(undefined)).toThrowError(errorString);
-		// @ts-expect-error
 		expect(() => fastifyApollo(null)).toThrowError(errorString);
-		// @ts-expect-error
 		expect(() => fastifyApolloHandler(null)).toThrowError(errorString);
-		// @ts-expect-error
-		// eslint-disable-next-line no-new-object
+		// @ts-expect-error: Type 'Object' is not a valid type for ApolloServer
 		expect(() => fastifyApollo(new Object())).toThrowError(errorString);
-		// @ts-expect-error
-		// eslint-disable-next-line no-new-object
+		// @ts-expect-error: Type 'Object' is not a valid type for ApolloServer
 		expect(() => fastifyApolloHandler(new Object())).toThrowError(errorString);
 	});
 

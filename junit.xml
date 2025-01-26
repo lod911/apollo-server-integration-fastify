@@ -1,0 +1,2559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="498" failures="0" errors="0" time="6.356">
+	<testsuite
+		name="integration tests"
+		errors="0"
+		failures="0"
+		skipped="9"
+		timestamp="2025-01-25T13:07:07"
+		time="6.086"
+		tests="248"
+	>
+		<testcase
+			classname="integration tests apolloServerTests.ts lockstep versioning of @apollo/server and @apollo/server-integration-testsuite"
+			name="integration tests apolloServerTests.ts lockstep versioning of @apollo/server and @apollo/server-integration-testsuite"
+			time="0.02"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor validation rules accepts additional rules"
+			name="integration tests apolloServerTests.ts constructor validation rules accepts additional rules"
+			time="0.065"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor validation rules allows introspection by default"
+			name="integration tests apolloServerTests.ts constructor validation rules allows introspection by default"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor validation rules prevents introspection by default during production"
+			name="integration tests apolloServerTests.ts constructor validation rules prevents introspection by default during production"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor validation rules allows disabling validation rules"
+			name="integration tests apolloServerTests.ts constructor validation rules allows disabling validation rules"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor validation rules allows introspection to be enabled explicitly"
+			name="integration tests apolloServerTests.ts constructor validation rules allows introspection to be enabled explicitly"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input variable coercion errors"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input variable coercion errors"
+			time="0.013"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches required type variable error and returns UserInputError"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches required type variable error and returns UserInputError"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches required List type variable error and returns UserInputError"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches required List type variable error and returns UserInputError"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches non-null type variable error and returns UserInputError"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches non-null type variable error and returns UserInputError"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches non-null List type variable error and returns UserInputError"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches non-null List type variable error and returns UserInputError"
+			time="0.01"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches List of non-null type variable error and returns UserInputError"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches List of non-null type variable error and returns UserInputError"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches custom scalar parseValue and returns BAD_USER_INPUT"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches custom scalar parseValue and returns BAD_USER_INPUT"
+			time="0.01"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches custom scalar parseValue and preserves code"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches custom scalar parseValue and preserves code"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor schema creation accepts typeDefs and resolvers"
+			name="integration tests apolloServerTests.ts constructor schema creation accepts typeDefs and resolvers"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor schema creation accepts a gateway&apos;s schema and calls its executor"
+			name="integration tests apolloServerTests.ts constructor schema creation accepts a gateway&apos;s schema and calls its executor"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor schema creation rejected load promise is thrown by server.start"
+			name="integration tests apolloServerTests.ts constructor schema creation rejected load promise is thrown by server.start"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Plugins returns correct status code for a normal operation"
+			name="integration tests apolloServerTests.ts Plugins returns correct status code for a normal operation"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Plugins allows setting a custom status code for an error"
+			name="integration tests apolloServerTests.ts Plugins allows setting a custom status code for an error"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Plugins preserves user-added &quot;extensions&quot; in the response when parsing errors occur"
+			name="integration tests apolloServerTests.ts Plugins preserves user-added &quot;extensions&quot; in the response when parsing errors occur"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Plugins preserves user-added &quot;extensions&quot; in the response when validation errors occur"
+			name="integration tests apolloServerTests.ts Plugins preserves user-added &quot;extensions&quot; in the response when validation errors occur"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts formatError wraps thrown error from validation rules"
+			name="integration tests apolloServerTests.ts formatError wraps thrown error from validation rules"
+			time="0.011"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces cachePolicy"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces cachePolicy"
+			time="0.022"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces does not expose stack"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces does not expose stack"
+			time="0.017"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to operationName when it is defined"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to operationName when it is defined"
+			time="0.013"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to unknown operation for missing operation"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to unknown operation for missing operation"
+			time="0.01"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to parse failure when non-parsable gql"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to parse failure when non-parsable gql"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to validation failure when invalid operation"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to validation failure when invalid operation"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to &quot;-&quot; when operationName is undefined"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to &quot;-&quot; when operationName is undefined"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces includes all fields with defer"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces includes all fields with defer"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces doesn&apos;t resort to query body signature on `didResolveOperation` error"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces doesn&apos;t resort to query body signature on `didResolveOperation` error"
+			time="0.01"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces doesn&apos;t internal server error on an APQ"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces doesn&apos;t internal server error on an APQ"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging sendErrors new error"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging sendErrors new error"
+			time="0.012"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging sendErrors modified error"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging sendErrors modified error"
+			time="0.011"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging sendErrors nulled error"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging sendErrors nulled error"
+			time="0.013"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging undefined error"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging undefined error"
+			time="0.01"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging unmodified"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging unmodified"
+			time="0.012"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging masked"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging masked"
+			time="0.011"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle errors thrown in plugins call formatError and are wrapped"
+			name="integration tests apolloServerTests.ts lifecycle errors thrown in plugins call formatError and are wrapped"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field defers context eval with thunk until after options creation"
+			name="integration tests apolloServerTests.ts lifecycle context field defers context eval with thunk until after options creation"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field context cloning clones the context for request pipeline requests"
+			name="integration tests apolloServerTests.ts lifecycle context field context cloning clones the context for request pipeline requests"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field context cloning for every request with executeOperation"
+			name="integration tests apolloServerTests.ts lifecycle context field context cloning for every request with executeOperation"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as a function can accept nothing and return an empty object"
+			name="integration tests apolloServerTests.ts lifecycle context field as a function can accept nothing and return an empty object"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as a function can be an async function"
+			name="integration tests apolloServerTests.ts lifecycle context field as a function can be an async function"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as a function context errors GraphQLErrors are formatted, defaulting to status 500"
+			name="integration tests apolloServerTests.ts lifecycle context field as a function context errors GraphQLErrors are formatted, defaulting to status 500"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as a function context errors GraphQLErrors are formatted, defaulting to INTERNAL_SERVER_ERROR"
+			name="integration tests apolloServerTests.ts lifecycle context field as a function context errors GraphQLErrors are formatted, defaulting to INTERNAL_SERVER_ERROR"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as a function context errors GraphQLErrors are formatted, obeying http extension"
+			name="integration tests apolloServerTests.ts lifecycle context field as a function context errors GraphQLErrors are formatted, obeying http extension"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as a function context errors non-GraphQLErrors are formatted"
+			name="integration tests apolloServerTests.ts lifecycle context field as a function context errors non-GraphQLErrors are formatted"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as an object can be an empty object"
+			name="integration tests apolloServerTests.ts lifecycle context field as an object can be an empty object"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as an object can contain arbitrary values"
+			name="integration tests apolloServerTests.ts lifecycle context field as an object can contain arbitrary values"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle propagates error codes in production"
+			name="integration tests apolloServerTests.ts lifecycle propagates error codes in production"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle propagates error codes with null response in production"
+			name="integration tests apolloServerTests.ts lifecycle propagates error codes with null response in production"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle propagates error codes in dev mode"
+			name="integration tests apolloServerTests.ts lifecycle propagates error codes in dev mode"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle shows error extensions in extensions (only!)"
+			name="integration tests apolloServerTests.ts lifecycle shows error extensions in extensions (only!)"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Persisted Queries returns PersistedQueryNotFound on the first try"
+			name="integration tests apolloServerTests.ts Persisted Queries returns PersistedQueryNotFound on the first try"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Persisted Queries returns result on the second try"
+			name="integration tests apolloServerTests.ts Persisted Queries returns result on the second try"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Persisted Queries returns result on the persisted query"
+			name="integration tests apolloServerTests.ts Persisted Queries returns result on the persisted query"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Persisted Queries returns error when hash does not match"
+			name="integration tests apolloServerTests.ts Persisted Queries returns error when hash does not match"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Persisted Queries returns correct result for persisted query link"
+			name="integration tests apolloServerTests.ts Persisted Queries returns correct result for persisted query link"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Persisted Queries returns correct result for persisted query link using get request"
+			name="integration tests apolloServerTests.ts Persisted Queries returns correct result for persisted query link using get request"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with retryable error"
+			name="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with retryable error"
+			time="0.374"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with network error"
+			name="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with network error"
+			time="0.531"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with timeout"
+			name="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with timeout"
+			time="0.498"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with non-retryable error"
+			name="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with non-retryable error"
+			time="0.03"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Federated tracing doesn&apos;t include federated trace without the special header"
+			name="integration tests apolloServerTests.ts Federated tracing doesn&apos;t include federated trace without the special header"
+			time="0.019"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Federated tracing doesn&apos;t include federated trace without _Service in the schema"
+			name="integration tests apolloServerTests.ts Federated tracing doesn&apos;t include federated trace without _Service in the schema"
+			time="0.015"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Federated tracing with nullable _Service.sdl field reports a total duration that is longer than the duration of its resolvers"
+			name="integration tests apolloServerTests.ts Federated tracing with nullable _Service.sdl field reports a total duration that is longer than the duration of its resolvers"
+			time="0.017"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Federated tracing with nullable _Service.sdl field includes errors in federated trace"
+			name="integration tests apolloServerTests.ts Federated tracing with nullable _Service.sdl field includes errors in federated trace"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Federated tracing with non-nullable _Service.sdl! field reports a total duration that is longer than the duration of its resolvers"
+			name="integration tests apolloServerTests.ts Federated tracing with non-nullable _Service.sdl! field reports a total duration that is longer than the duration of its resolvers"
+			time="0.016"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Federated tracing with non-nullable _Service.sdl! field includes errors in federated trace"
+			name="integration tests apolloServerTests.ts Federated tracing with non-nullable _Service.sdl! field includes errors in federated trace"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Gateway receives schema updates from the gateway (with document store: true)"
+			name="integration tests apolloServerTests.ts Gateway receives schema updates from the gateway (with document store: true)"
+			time="0.01"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Gateway receives schema updates from the gateway (with document store: false)"
+			name="integration tests apolloServerTests.ts Gateway receives schema updates from the gateway (with document store: false)"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Gateway passes apollo data to the gateway"
+			name="integration tests apolloServerTests.ts Gateway passes apollo data to the gateway"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Gateway unsubscribes from schema update on close"
+			name="integration tests apolloServerTests.ts Gateway unsubscribes from schema update on close"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Gateway waits until gateway has resolved a schema to respond to queries"
+			name="integration tests apolloServerTests.ts Gateway waits until gateway has resolved a schema to respond to queries"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Gateway can serve multiple active schemas simultaneously during a schema rollover"
+			name="integration tests apolloServerTests.ts Gateway can serve multiple active schemas simultaneously during a schema rollover"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage defaults to LocalDefault"
+			name="integration tests apolloServerTests.ts renderLandingPage defaults to LocalDefault"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage can specify version for LocalDefault"
+			name="integration tests apolloServerTests.ts renderLandingPage can specify version for LocalDefault"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage can be disabled"
+			name="integration tests apolloServerTests.ts renderLandingPage can be disabled"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage basic functionality basic GET works"
+			name="integration tests apolloServerTests.ts renderLandingPage basic functionality basic GET works"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage basic functionality basic GET works with more complex header"
+			name="integration tests apolloServerTests.ts renderLandingPage basic functionality basic GET works with more complex header"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage basic functionality no landing page with application/json"
+			name="integration tests apolloServerTests.ts renderLandingPage basic functionality no landing page with application/json"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage basic functionality no landing page with */*"
+			name="integration tests apolloServerTests.ts renderLandingPage basic functionality no landing page with */*"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage basic functionality needs the header"
+			name="integration tests apolloServerTests.ts renderLandingPage basic functionality needs the header"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage async `html` function returns a string"
+			name="integration tests apolloServerTests.ts renderLandingPage async `html` function returns a string"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage async `html` function throws"
+			name="integration tests apolloServerTests.ts renderLandingPage async `html` function throws"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage startup errors only one plugin can implement renderLandingPage"
+			name="integration tests apolloServerTests.ts renderLandingPage startup errors only one plugin can implement renderLandingPage"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts CSRF prevention default"
+			name="integration tests apolloServerTests.ts CSRF prevention default"
+			time="0.022"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts CSRF prevention csrfPrevention: {requestHeaders}"
+			name="integration tests apolloServerTests.ts CSRF prevention csrfPrevention: {requestHeaders}"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts CSRF prevention csrfPrevention: false"
+			name="integration tests apolloServerTests.ts CSRF prevention csrfPrevention: false"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP rejects the request if the method is not POST or GET"
+			name="integration tests httpServerTests.ts graphqlHTTP rejects the request if the method is not POST or GET"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws an error if POST body is empty"
+			name="integration tests httpServerTests.ts graphqlHTTP throws an error if POST body is empty"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws an error if POST body is missing even with content-type"
+			name="integration tests httpServerTests.ts graphqlHTTP throws an error if POST body is missing even with content-type"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws an error if invalid content-type"
+			name="integration tests httpServerTests.ts graphqlHTTP throws an error if invalid content-type"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws an error if POST operation is missing"
+			name="integration tests httpServerTests.ts graphqlHTTP throws an error if POST operation is missing"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws an error if POST operation is empty"
+			name="integration tests httpServerTests.ts graphqlHTTP throws an error if POST operation is empty"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws an error if POST JSON is malformed"
+			name="integration tests httpServerTests.ts graphqlHTTP throws an error if POST JSON is malformed"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns an error on parse failure"
+			name="integration tests httpServerTests.ts graphqlHTTP returns an error on parse failure"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns an error on validation failure"
+			name="integration tests httpServerTests.ts graphqlHTTP returns an error on validation failure"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP unknown operation name returns 400 and OPERATION_RESOLUTION_FAILURE"
+			name="integration tests httpServerTests.ts graphqlHTTP unknown operation name returns 400 and OPERATION_RESOLUTION_FAILURE"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP unknown operation name returns 400 and OPERATION_RESOLUTION_FAILURE for GET requests"
+			name="integration tests httpServerTests.ts graphqlHTTP unknown operation name returns 400 and OPERATION_RESOLUTION_FAILURE for GET requests"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throwing in didResolveOperation results in error with default HTTP status code"
+			name="integration tests httpServerTests.ts graphqlHTTP throwing in didResolveOperation results in error with default HTTP status code"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throwing in didResolveOperation results in error with specified HTTP status code"
+			name="integration tests httpServerTests.ts graphqlHTTP throwing in didResolveOperation results in error with specified HTTP status code"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP multiple operations with no `operationName` specified returns 400 and OPERATION_RESOLUTION_FAILURE"
+			name="integration tests httpServerTests.ts graphqlHTTP multiple operations with no `operationName` specified returns 400 and OPERATION_RESOLUTION_FAILURE"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws an error if GET query is missing"
+			name="integration tests httpServerTests.ts graphqlHTTP throws an error if GET query is missing"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic GET request"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic GET request"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP GET request with array body is not interpreted as batch"
+			name="integration tests httpServerTests.ts graphqlHTTP GET request with array body is not interpreted as batch"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic implicit GET request"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic implicit GET request"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws error if trying to use mutation using GET request"
+			name="integration tests httpServerTests.ts graphqlHTTP throws error if trying to use mutation using GET request"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws error if trying to use mutation with fragment using GET request"
+			name="integration tests httpServerTests.ts graphqlHTTP throws error if trying to use mutation with fragment using GET request"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP does not accept multiple query search parameters"
+			name="integration tests httpServerTests.ts graphqlHTTP does not accept multiple query search parameters"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a GET request with variables"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a GET request with variables"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json; charset=utf-8"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json; charset=utf-8"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/graphql-response+json"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/graphql-response+json"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/graphql-response+json; charset=utf-8"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/graphql-response+json; charset=utf-8"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/graphql-response+json, application/json"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/graphql-response+json, application/json"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json, application/graphql-response+json"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json, application/graphql-response+json"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json; q=0.5, application/graphql-response+json"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json; q=0.5, application/graphql-response+json"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP responses have content-length headers"
+			name="integration tests httpServerTests.ts graphqlHTTP responses have content-length headers"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control applies cacheControl Headers"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control applies cacheControl Headers"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control applies cacheControl Headers for batched operation"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control applies cacheControl Headers for batched operation"
+			time="0.017"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control applies cacheControl Headers with if-cacheable"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control applies cacheControl Headers with if-cacheable"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control contains no cacheControl Headers when uncacheable"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control contains no cacheControl Headers when uncacheable"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control contains private cacheControl Headers when scoped"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control contains private cacheControl Headers when scoped"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control runs when cache-control is disabled"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control runs when cache-control is disabled"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control not set without any hints with if-cacheable"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control not set without any hints with if-cacheable"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control set to no-store without any hints"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control set to no-store without any hints"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control set with dynamic hint"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control set with dynamic hint"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control set with defaultMaxAge"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control set with defaultMaxAge"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotSupported to a GET request if PQs disabled"
+			name="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotSupported to a GET request if PQs disabled"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotSupported to a POST request if PQs disabled"
+			name="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotSupported to a POST request if PQs disabled"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotFound to a GET request"
+			name="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotFound to a GET request"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotFound to a POST request"
+			name="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotFound to a POST request"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a request with variables"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a request with variables"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP POST does not handle a request with variables as string"
+			name="integration tests httpServerTests.ts graphqlHTTP POST does not handle a request with variables as string"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP POST does not handle a request with extensions as string"
+			name="integration tests httpServerTests.ts graphqlHTTP POST does not handle a request with extensions as string"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a request with operationName"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a request with operationName"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle introspection request"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle introspection request"
+			time="0.014"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle Rover introspection request"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle Rover introspection request"
+			time="0.012"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP does not accept a query AST"
+			name="integration tests httpServerTests.ts graphqlHTTP does not accept a query AST"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle batch requests"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle batch requests"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle non-batch requests when allowBatchedHttpRequests is true"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle non-batch requests when allowBatchedHttpRequests is true"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle batch requests with one element"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle batch requests with one element"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns an error on batch requests with no elements"
+			name="integration tests httpServerTests.ts graphqlHTTP returns an error on batch requests with no elements"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle batch requests in parallel"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle batch requests in parallel"
+			time="0.08"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP disables batch requests by default"
+			name="integration tests httpServerTests.ts graphqlHTTP disables batch requests by default"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP clones batch context"
+			name="integration tests httpServerTests.ts graphqlHTTP clones batch context"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP executes batch context if it is a function"
+			name="integration tests httpServerTests.ts graphqlHTTP executes batch context if it is a function"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a request with a mutation"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a request with a mutation"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP willSendResponse can be equivalent to the old formatResponse function"
+			name="integration tests httpServerTests.ts graphqlHTTP willSendResponse can be equivalent to the old formatResponse function"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP passes the context to the resolver"
+			name="integration tests httpServerTests.ts graphqlHTTP passes the context to the resolver"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP passes the rootValue to the resolver"
+			name="integration tests httpServerTests.ts graphqlHTTP passes the rootValue to the resolver"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP passes the rootValue function result to the resolver"
+			name="integration tests httpServerTests.ts graphqlHTTP passes the rootValue function result to the resolver"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns errors"
+			name="integration tests httpServerTests.ts graphqlHTTP returns errors"
+			time="0.017"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP applies formatError if provided"
+			name="integration tests httpServerTests.ts graphqlHTTP applies formatError if provided"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP formatError receives error that can be unwrapped to pass instanceof checks"
+			name="integration tests httpServerTests.ts graphqlHTTP formatError receives error that can be unwrapped to pass instanceof checks"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP formatError receives error that passes instanceof checks when GraphQLError"
+			name="integration tests httpServerTests.ts graphqlHTTP formatError receives error that passes instanceof checks when GraphQLError"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP GraphQLError HTTP extensions are respected and stripped"
+			name="integration tests httpServerTests.ts graphqlHTTP GraphQLError HTTP extensions are respected and stripped"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP formatError receives correct error for parse failure"
+			name="integration tests httpServerTests.ts graphqlHTTP formatError receives correct error for parse failure"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP allows for custom error formatting to sanitize"
+			name="integration tests httpServerTests.ts graphqlHTTP allows for custom error formatting to sanitize"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP allows for custom error formatting to elaborate"
+			name="integration tests httpServerTests.ts graphqlHTTP allows for custom error formatting to elaborate"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP sends internal server error when formatError fails"
+			name="integration tests httpServerTests.ts graphqlHTTP sends internal server error when formatError fails"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP applies additional validationRules"
+			name="integration tests httpServerTests.ts graphqlHTTP applies additional validationRules"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts status code allows setting a custom status code"
+			name="integration tests httpServerTests.ts status code allows setting a custom status code"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery mocked execution basic @defer working"
+			name="integration tests httpServerTests.ts incremental delivery mocked execution basic @defer working"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery mocked execution first payload sent while deferred field is blocking"
+			name="integration tests httpServerTests.ts incremental delivery mocked execution first payload sent while deferred field is blocking"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: undefined"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: undefined"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: application/json"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: application/json"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: multipart/mixed"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: multipart/mixed"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: multipart/mixed; deferSpec=12345"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: multipart/mixed; deferSpec=12345"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 basic @defer working with accept: multipart/mixed; deferSpec=20220824"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 basic @defer working with accept: multipart/mixed; deferSpec=20220824"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 basic @defer working with accept: multipart/mixed; deferSpec=20220824, application/json"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 basic @defer working with accept: multipart/mixed; deferSpec=20220824, application/json"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 basic @defer working with accept: application/json, multipart/mixed; deferSpec=20220824"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 basic @defer working with accept: application/json, multipart/mixed; deferSpec=20220824"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 first payload sent while deferred field is blocking"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 first payload sent while deferred field is blocking"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries when ttlSeconds is set, passes ttl to the apq cache set call"
+			name="integration tests httpServerTests.ts Persisted Queries when ttlSeconds is set, passes ttl to the apq cache set call"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries when ttlSeconds is unset, ttl is not passed to apq cache"
+			name="integration tests httpServerTests.ts Persisted Queries when ttlSeconds is unset, ttl is not passed to apq cache"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries errors when version is not specified"
+			name="integration tests httpServerTests.ts Persisted Queries errors when version is not specified"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries errors when version is unsupported"
+			name="integration tests httpServerTests.ts Persisted Queries errors when version is unsupported"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries errors when hash is mismatched"
+			name="integration tests httpServerTests.ts Persisted Queries errors when hash is mismatched"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries returns PersistedQueryNotFound on the first try"
+			name="integration tests httpServerTests.ts Persisted Queries returns PersistedQueryNotFound on the first try"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries returns result on the second try"
+			name="integration tests httpServerTests.ts Persisted Queries returns result on the second try"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries returns with batched persisted queries"
+			name="integration tests httpServerTests.ts Persisted Queries returns with batched persisted queries"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries returns result on the persisted query"
+			name="integration tests httpServerTests.ts Persisted Queries returns result on the persisted query"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries returns error when hash does not match"
+			name="integration tests httpServerTests.ts Persisted Queries returns error when hash does not match"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries returns correct result using get request"
+			name="integration tests httpServerTests.ts Persisted Queries returns correct result using get request"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts gateway execution executor can read and write response HTTP headers and status"
+			name="integration tests httpServerTests.ts gateway execution executor can read and write response HTTP headers and status"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD accept application/graphql-response+json and match the content-type"
+			name="integration tests httpSpecTests.ts SHOULD accept application/graphql-response+json and match the content-type"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST accept application/json and match the content-type"
+			name="integration tests httpSpecTests.ts MUST accept application/json and match the content-type"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD accept */* and use application/json for the content-type"
+			name="integration tests httpSpecTests.ts SHOULD accept */* and use application/json for the content-type"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD assume application/json content-type when accept is missing"
+			name="integration tests httpSpecTests.ts SHOULD assume application/json content-type when accept is missing"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST use utf-8 encoding when responding"
+			name="integration tests httpSpecTests.ts MUST use utf-8 encoding when responding"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST accept utf-8 encoded request"
+			name="integration tests httpSpecTests.ts MUST accept utf-8 encoded request"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST assume utf-8 in request if encoding is unspecified"
+			name="integration tests httpSpecTests.ts MUST assume utf-8 in request if encoding is unspecified"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST accept POST requests"
+			name="integration tests httpSpecTests.ts MUST accept POST requests"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY accept application/x-www-form-urlencoded formatted GET requests"
+			name="integration tests httpSpecTests.ts MAY accept application/x-www-form-urlencoded formatted GET requests"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY NOT allow executing mutations on GET requests"
+			name="integration tests httpSpecTests.ts MAY NOT allow executing mutations on GET requests"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY respond with 4xx status code if content-type is not supplied on POST requests"
+			name="integration tests httpSpecTests.ts MAY respond with 4xx status code if content-type is not supplied on POST requests"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST accept application/json POST requests"
+			name="integration tests httpSpecTests.ts MUST accept application/json POST requests"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code when request body is missing on POST"
+			name="integration tests httpSpecTests.ts MAY use 400 status code when request body is missing on POST"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on missing {query} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on missing {query} parameter"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on object {query} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on object {query} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on number {query} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on number {query} parameter"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on boolean {query} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on boolean {query} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on array {query} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on array {query} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD allow string {query} parameter when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD allow string {query} parameter when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST allow string {query} parameter when accepting application/json"
+			name="integration tests httpSpecTests.ts MUST allow string {query} parameter when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on object {operationName} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on object {operationName} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on number {operationName} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on number {operationName} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on boolean {operationName} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on boolean {operationName} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on array {operationName} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on array {operationName} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD allow string {operationName} parameter when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD allow string {operationName} parameter when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST allow string {operationName} parameter when accepting application/json"
+			name="integration tests httpSpecTests.ts MUST allow string {operationName} parameter when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD allow null {variables} parameter when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD allow null {variables} parameter when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST allow null {variables} parameter when accepting application/json"
+			name="integration tests httpSpecTests.ts MUST allow null {variables} parameter when accepting application/json"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD allow null {operationName} parameter when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD allow null {operationName} parameter when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST allow null {operationName} parameter when accepting application/json"
+			name="integration tests httpSpecTests.ts MUST allow null {operationName} parameter when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD allow null {extensions} parameter when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD allow null {extensions} parameter when accepting application/graphql-response+json"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST allow null {extensions} parameter when accepting application/json"
+			name="integration tests httpSpecTests.ts MUST allow null {extensions} parameter when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on string {variables} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on string {variables} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on number {variables} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on number {variables} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on boolean {variables} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on boolean {variables} parameter"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on array {variables} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on array {variables} parameter"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD allow map {variables} parameter when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD allow map {variables} parameter when accepting application/graphql-response+json"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST allow map {variables} parameter when accepting application/json"
+			name="integration tests httpSpecTests.ts MUST allow map {variables} parameter when accepting application/json"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY allow URL-encoded JSON string {variables} parameter in GETs when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts MAY allow URL-encoded JSON string {variables} parameter in GETs when accepting application/graphql-response+json"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY allow URL-encoded JSON string {variables} parameter in GETs when accepting application/json"
+			name="integration tests httpSpecTests.ts MAY allow URL-encoded JSON string {variables} parameter in GETs when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on string {extensions} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on string {extensions} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on number {extensions} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on number {extensions} parameter"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on boolean {extensions} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on boolean {extensions} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on array {extensions} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on array {extensions} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD allow map {extensions} parameter when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD allow map {extensions} parameter when accepting application/graphql-response+json"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST allow map {extensions} parameter when accepting application/json"
+			name="integration tests httpSpecTests.ts MUST allow map {extensions} parameter when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 4xx or 5xx status codes on JSON parsing failure"
+			name="integration tests httpSpecTests.ts MAY use 4xx or 5xx status codes on JSON parsing failure"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on JSON parsing failure"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on JSON parsing failure"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 4xx or 5xx status codes if parameters are invalid"
+			name="integration tests httpSpecTests.ts MAY use 4xx or 5xx status codes if parameters are invalid"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code if parameters are invalid"
+			name="integration tests httpSpecTests.ts MAY use 400 status code if parameters are invalid"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use 200 status code on document parsing failure when accepting application/json"
+			name="integration tests httpSpecTests.ts SHOULD use 200 status code on document parsing failure when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use 200 status code on document validation failure when accepting application/json"
+			name="integration tests httpSpecTests.ts SHOULD use 200 status code on document validation failure when accepting application/json"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use a status code of 200 on variable coercion failure when accepting application/json"
+			name="integration tests httpSpecTests.ts SHOULD use a status code of 200 on variable coercion failure when accepting application/json"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use 4xx or 5xx status codes on document parsing failure when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD use 4xx or 5xx status codes on document parsing failure when accepting application/graphql-response+json"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use 400 status code on document parsing failure when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD use 400 status code on document parsing failure when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD not contain the data entry on document parsing failure when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD not contain the data entry on document parsing failure when accepting application/graphql-response+json"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use 4xx or 5xx status codes on document validation failure when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD use 4xx or 5xx status codes on document validation failure when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use 400 status code on document validation failure when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD use 400 status code on document validation failure when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD not contain the data entry on document validation failure when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD not contain the data entry on document validation failure when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use a status code of 400 on variable coercion failure when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD use a status code of 400 on variable coercion failure when accepting application/graphql-response+json"
+			time="0.003"
+		/>
+	</testsuite>
+	<testsuite
+		name="integration tests"
+		errors="0"
+		failures="0"
+		skipped="9"
+		timestamp="2025-01-25T13:07:07"
+		time="6.157"
+		tests="248"
+	>
+		<testcase
+			classname="integration tests apolloServerTests.ts lockstep versioning of @apollo/server and @apollo/server-integration-testsuite"
+			name="integration tests apolloServerTests.ts lockstep versioning of @apollo/server and @apollo/server-integration-testsuite"
+			time="0.023"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor validation rules accepts additional rules"
+			name="integration tests apolloServerTests.ts constructor validation rules accepts additional rules"
+			time="0.076"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor validation rules allows introspection by default"
+			name="integration tests apolloServerTests.ts constructor validation rules allows introspection by default"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor validation rules prevents introspection by default during production"
+			name="integration tests apolloServerTests.ts constructor validation rules prevents introspection by default during production"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor validation rules allows disabling validation rules"
+			name="integration tests apolloServerTests.ts constructor validation rules allows disabling validation rules"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor validation rules allows introspection to be enabled explicitly"
+			name="integration tests apolloServerTests.ts constructor validation rules allows introspection to be enabled explicitly"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input variable coercion errors"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input variable coercion errors"
+			time="0.013"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches required type variable error and returns UserInputError"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches required type variable error and returns UserInputError"
+			time="0.011"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches required List type variable error and returns UserInputError"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches required List type variable error and returns UserInputError"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches non-null type variable error and returns UserInputError"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches non-null type variable error and returns UserInputError"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches non-null List type variable error and returns UserInputError"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches non-null List type variable error and returns UserInputError"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches List of non-null type variable error and returns UserInputError"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches List of non-null type variable error and returns UserInputError"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches custom scalar parseValue and returns BAD_USER_INPUT"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches custom scalar parseValue and returns BAD_USER_INPUT"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches custom scalar parseValue and preserves code"
+			name="integration tests apolloServerTests.ts constructor appropriate error for bad user input catches custom scalar parseValue and preserves code"
+			time="0.01"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor schema creation accepts typeDefs and resolvers"
+			name="integration tests apolloServerTests.ts constructor schema creation accepts typeDefs and resolvers"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor schema creation accepts a gateway&apos;s schema and calls its executor"
+			name="integration tests apolloServerTests.ts constructor schema creation accepts a gateway&apos;s schema and calls its executor"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts constructor schema creation rejected load promise is thrown by server.start"
+			name="integration tests apolloServerTests.ts constructor schema creation rejected load promise is thrown by server.start"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Plugins returns correct status code for a normal operation"
+			name="integration tests apolloServerTests.ts Plugins returns correct status code for a normal operation"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Plugins allows setting a custom status code for an error"
+			name="integration tests apolloServerTests.ts Plugins allows setting a custom status code for an error"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Plugins preserves user-added &quot;extensions&quot; in the response when parsing errors occur"
+			name="integration tests apolloServerTests.ts Plugins preserves user-added &quot;extensions&quot; in the response when parsing errors occur"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Plugins preserves user-added &quot;extensions&quot; in the response when validation errors occur"
+			name="integration tests apolloServerTests.ts Plugins preserves user-added &quot;extensions&quot; in the response when validation errors occur"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts formatError wraps thrown error from validation rules"
+			name="integration tests apolloServerTests.ts formatError wraps thrown error from validation rules"
+			time="0.011"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces cachePolicy"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces cachePolicy"
+			time="0.025"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces does not expose stack"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces does not expose stack"
+			time="0.017"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to operationName when it is defined"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to operationName when it is defined"
+			time="0.01"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to unknown operation for missing operation"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to unknown operation for missing operation"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to parse failure when non-parsable gql"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to parse failure when non-parsable gql"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to validation failure when invalid operation"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to validation failure when invalid operation"
+			time="0.012"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to &quot;-&quot; when operationName is undefined"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces sets the trace key to &quot;-&quot; when operationName is undefined"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces includes all fields with defer"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces includes all fields with defer"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces doesn&apos;t resort to query body signature on `didResolveOperation` error"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces doesn&apos;t resort to query body signature on `didResolveOperation` error"
+			time="0.01"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces doesn&apos;t internal server error on an APQ"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces doesn&apos;t internal server error on an APQ"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging sendErrors new error"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging sendErrors new error"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging sendErrors modified error"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging sendErrors modified error"
+			time="0.011"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging sendErrors nulled error"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging sendErrors nulled error"
+			time="0.013"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging undefined error"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging undefined error"
+			time="0.01"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging unmodified"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging unmodified"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging masked"
+			name="integration tests apolloServerTests.ts lifecycle for Apollo usage reporting traces error munging masked"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle errors thrown in plugins call formatError and are wrapped"
+			name="integration tests apolloServerTests.ts lifecycle errors thrown in plugins call formatError and are wrapped"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field defers context eval with thunk until after options creation"
+			name="integration tests apolloServerTests.ts lifecycle context field defers context eval with thunk until after options creation"
+			time="0.011"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field context cloning clones the context for request pipeline requests"
+			name="integration tests apolloServerTests.ts lifecycle context field context cloning clones the context for request pipeline requests"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field context cloning for every request with executeOperation"
+			name="integration tests apolloServerTests.ts lifecycle context field context cloning for every request with executeOperation"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as a function can accept nothing and return an empty object"
+			name="integration tests apolloServerTests.ts lifecycle context field as a function can accept nothing and return an empty object"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as a function can be an async function"
+			name="integration tests apolloServerTests.ts lifecycle context field as a function can be an async function"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as a function context errors GraphQLErrors are formatted, defaulting to status 500"
+			name="integration tests apolloServerTests.ts lifecycle context field as a function context errors GraphQLErrors are formatted, defaulting to status 500"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as a function context errors GraphQLErrors are formatted, defaulting to INTERNAL_SERVER_ERROR"
+			name="integration tests apolloServerTests.ts lifecycle context field as a function context errors GraphQLErrors are formatted, defaulting to INTERNAL_SERVER_ERROR"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as a function context errors GraphQLErrors are formatted, obeying http extension"
+			name="integration tests apolloServerTests.ts lifecycle context field as a function context errors GraphQLErrors are formatted, obeying http extension"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as a function context errors non-GraphQLErrors are formatted"
+			name="integration tests apolloServerTests.ts lifecycle context field as a function context errors non-GraphQLErrors are formatted"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as an object can be an empty object"
+			name="integration tests apolloServerTests.ts lifecycle context field as an object can be an empty object"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle context field as an object can contain arbitrary values"
+			name="integration tests apolloServerTests.ts lifecycle context field as an object can contain arbitrary values"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle propagates error codes in production"
+			name="integration tests apolloServerTests.ts lifecycle propagates error codes in production"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle propagates error codes with null response in production"
+			name="integration tests apolloServerTests.ts lifecycle propagates error codes with null response in production"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle propagates error codes in dev mode"
+			name="integration tests apolloServerTests.ts lifecycle propagates error codes in dev mode"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts lifecycle shows error extensions in extensions (only!)"
+			name="integration tests apolloServerTests.ts lifecycle shows error extensions in extensions (only!)"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Persisted Queries returns PersistedQueryNotFound on the first try"
+			name="integration tests apolloServerTests.ts Persisted Queries returns PersistedQueryNotFound on the first try"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Persisted Queries returns result on the second try"
+			name="integration tests apolloServerTests.ts Persisted Queries returns result on the second try"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Persisted Queries returns result on the persisted query"
+			name="integration tests apolloServerTests.ts Persisted Queries returns result on the persisted query"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Persisted Queries returns error when hash does not match"
+			name="integration tests apolloServerTests.ts Persisted Queries returns error when hash does not match"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Persisted Queries returns correct result for persisted query link"
+			name="integration tests apolloServerTests.ts Persisted Queries returns correct result for persisted query link"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Persisted Queries returns correct result for persisted query link using get request"
+			name="integration tests apolloServerTests.ts Persisted Queries returns correct result for persisted query link using get request"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with retryable error"
+			name="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with retryable error"
+			time="0.468"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with network error"
+			name="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with network error"
+			time="0.544"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with timeout"
+			name="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with timeout"
+			time="0.543"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with non-retryable error"
+			name="integration tests apolloServerTests.ts usage reporting graphql server functions even when Apollo servers are down with non-retryable error"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Federated tracing doesn&apos;t include federated trace without the special header"
+			name="integration tests apolloServerTests.ts Federated tracing doesn&apos;t include federated trace without the special header"
+			time="0.015"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Federated tracing doesn&apos;t include federated trace without _Service in the schema"
+			name="integration tests apolloServerTests.ts Federated tracing doesn&apos;t include federated trace without _Service in the schema"
+			time="0.018"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Federated tracing with nullable _Service.sdl field reports a total duration that is longer than the duration of its resolvers"
+			name="integration tests apolloServerTests.ts Federated tracing with nullable _Service.sdl field reports a total duration that is longer than the duration of its resolvers"
+			time="0.016"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Federated tracing with nullable _Service.sdl field includes errors in federated trace"
+			name="integration tests apolloServerTests.ts Federated tracing with nullable _Service.sdl field includes errors in federated trace"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Federated tracing with non-nullable _Service.sdl! field reports a total duration that is longer than the duration of its resolvers"
+			name="integration tests apolloServerTests.ts Federated tracing with non-nullable _Service.sdl! field reports a total duration that is longer than the duration of its resolvers"
+			time="0.015"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Federated tracing with non-nullable _Service.sdl! field includes errors in federated trace"
+			name="integration tests apolloServerTests.ts Federated tracing with non-nullable _Service.sdl! field includes errors in federated trace"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Gateway receives schema updates from the gateway (with document store: true)"
+			name="integration tests apolloServerTests.ts Gateway receives schema updates from the gateway (with document store: true)"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Gateway receives schema updates from the gateway (with document store: false)"
+			name="integration tests apolloServerTests.ts Gateway receives schema updates from the gateway (with document store: false)"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Gateway passes apollo data to the gateway"
+			name="integration tests apolloServerTests.ts Gateway passes apollo data to the gateway"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Gateway unsubscribes from schema update on close"
+			name="integration tests apolloServerTests.ts Gateway unsubscribes from schema update on close"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Gateway waits until gateway has resolved a schema to respond to queries"
+			name="integration tests apolloServerTests.ts Gateway waits until gateway has resolved a schema to respond to queries"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts Gateway can serve multiple active schemas simultaneously during a schema rollover"
+			name="integration tests apolloServerTests.ts Gateway can serve multiple active schemas simultaneously during a schema rollover"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage defaults to LocalDefault"
+			name="integration tests apolloServerTests.ts renderLandingPage defaults to LocalDefault"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage can specify version for LocalDefault"
+			name="integration tests apolloServerTests.ts renderLandingPage can specify version for LocalDefault"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage can be disabled"
+			name="integration tests apolloServerTests.ts renderLandingPage can be disabled"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage basic functionality basic GET works"
+			name="integration tests apolloServerTests.ts renderLandingPage basic functionality basic GET works"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage basic functionality basic GET works with more complex header"
+			name="integration tests apolloServerTests.ts renderLandingPage basic functionality basic GET works with more complex header"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage basic functionality no landing page with application/json"
+			name="integration tests apolloServerTests.ts renderLandingPage basic functionality no landing page with application/json"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage basic functionality no landing page with */*"
+			name="integration tests apolloServerTests.ts renderLandingPage basic functionality no landing page with */*"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage basic functionality needs the header"
+			name="integration tests apolloServerTests.ts renderLandingPage basic functionality needs the header"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage async `html` function returns a string"
+			name="integration tests apolloServerTests.ts renderLandingPage async `html` function returns a string"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage async `html` function throws"
+			name="integration tests apolloServerTests.ts renderLandingPage async `html` function throws"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts renderLandingPage startup errors only one plugin can implement renderLandingPage"
+			name="integration tests apolloServerTests.ts renderLandingPage startup errors only one plugin can implement renderLandingPage"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts CSRF prevention default"
+			name="integration tests apolloServerTests.ts CSRF prevention default"
+			time="0.019"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts CSRF prevention csrfPrevention: {requestHeaders}"
+			name="integration tests apolloServerTests.ts CSRF prevention csrfPrevention: {requestHeaders}"
+			time="0.012"
+		/>
+		<testcase
+			classname="integration tests apolloServerTests.ts CSRF prevention csrfPrevention: false"
+			name="integration tests apolloServerTests.ts CSRF prevention csrfPrevention: false"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP rejects the request if the method is not POST or GET"
+			name="integration tests httpServerTests.ts graphqlHTTP rejects the request if the method is not POST or GET"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws an error if POST body is empty"
+			name="integration tests httpServerTests.ts graphqlHTTP throws an error if POST body is empty"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws an error if POST body is missing even with content-type"
+			name="integration tests httpServerTests.ts graphqlHTTP throws an error if POST body is missing even with content-type"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws an error if invalid content-type"
+			name="integration tests httpServerTests.ts graphqlHTTP throws an error if invalid content-type"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws an error if POST operation is missing"
+			name="integration tests httpServerTests.ts graphqlHTTP throws an error if POST operation is missing"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws an error if POST operation is empty"
+			name="integration tests httpServerTests.ts graphqlHTTP throws an error if POST operation is empty"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws an error if POST JSON is malformed"
+			name="integration tests httpServerTests.ts graphqlHTTP throws an error if POST JSON is malformed"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns an error on parse failure"
+			name="integration tests httpServerTests.ts graphqlHTTP returns an error on parse failure"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns an error on validation failure"
+			name="integration tests httpServerTests.ts graphqlHTTP returns an error on validation failure"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP unknown operation name returns 400 and OPERATION_RESOLUTION_FAILURE"
+			name="integration tests httpServerTests.ts graphqlHTTP unknown operation name returns 400 and OPERATION_RESOLUTION_FAILURE"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP unknown operation name returns 400 and OPERATION_RESOLUTION_FAILURE for GET requests"
+			name="integration tests httpServerTests.ts graphqlHTTP unknown operation name returns 400 and OPERATION_RESOLUTION_FAILURE for GET requests"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throwing in didResolveOperation results in error with default HTTP status code"
+			name="integration tests httpServerTests.ts graphqlHTTP throwing in didResolveOperation results in error with default HTTP status code"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throwing in didResolveOperation results in error with specified HTTP status code"
+			name="integration tests httpServerTests.ts graphqlHTTP throwing in didResolveOperation results in error with specified HTTP status code"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP multiple operations with no `operationName` specified returns 400 and OPERATION_RESOLUTION_FAILURE"
+			name="integration tests httpServerTests.ts graphqlHTTP multiple operations with no `operationName` specified returns 400 and OPERATION_RESOLUTION_FAILURE"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws an error if GET query is missing"
+			name="integration tests httpServerTests.ts graphqlHTTP throws an error if GET query is missing"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic GET request"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic GET request"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP GET request with array body is not interpreted as batch"
+			name="integration tests httpServerTests.ts graphqlHTTP GET request with array body is not interpreted as batch"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic implicit GET request"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic implicit GET request"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws error if trying to use mutation using GET request"
+			name="integration tests httpServerTests.ts graphqlHTTP throws error if trying to use mutation using GET request"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP throws error if trying to use mutation with fragment using GET request"
+			name="integration tests httpServerTests.ts graphqlHTTP throws error if trying to use mutation with fragment using GET request"
+			time="0.009"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP does not accept multiple query search parameters"
+			name="integration tests httpServerTests.ts graphqlHTTP does not accept multiple query search parameters"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a GET request with variables"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a GET request with variables"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json; charset=utf-8"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json; charset=utf-8"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/graphql-response+json"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/graphql-response+json"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/graphql-response+json; charset=utf-8"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/graphql-response+json; charset=utf-8"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/graphql-response+json, application/json"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/graphql-response+json, application/json"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json, application/graphql-response+json"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json, application/graphql-response+json"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json; q=0.5, application/graphql-response+json"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a basic request accepting application/json; q=0.5, application/graphql-response+json"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP responses have content-length headers"
+			name="integration tests httpServerTests.ts graphqlHTTP responses have content-length headers"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control applies cacheControl Headers"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control applies cacheControl Headers"
+			time="0.007"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control applies cacheControl Headers for batched operation"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control applies cacheControl Headers for batched operation"
+			time="0.012"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control applies cacheControl Headers with if-cacheable"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control applies cacheControl Headers with if-cacheable"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control contains no cacheControl Headers when uncacheable"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control contains no cacheControl Headers when uncacheable"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control contains private cacheControl Headers when scoped"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control contains private cacheControl Headers when scoped"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control runs when cache-control is disabled"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control runs when cache-control is disabled"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control not set without any hints with if-cacheable"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control not set without any hints with if-cacheable"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control set to no-store without any hints"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control set to no-store without any hints"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control set with dynamic hint"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control set with dynamic hint"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP cache-control set with defaultMaxAge"
+			name="integration tests httpServerTests.ts graphqlHTTP cache-control set with defaultMaxAge"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotSupported to a GET request if PQs disabled"
+			name="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotSupported to a GET request if PQs disabled"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotSupported to a POST request if PQs disabled"
+			name="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotSupported to a POST request if PQs disabled"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotFound to a GET request"
+			name="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotFound to a GET request"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotFound to a POST request"
+			name="integration tests httpServerTests.ts graphqlHTTP returns PersistedQueryNotFound to a POST request"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a request with variables"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a request with variables"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP POST does not handle a request with variables as string"
+			name="integration tests httpServerTests.ts graphqlHTTP POST does not handle a request with variables as string"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP POST does not handle a request with extensions as string"
+			name="integration tests httpServerTests.ts graphqlHTTP POST does not handle a request with extensions as string"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a request with operationName"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a request with operationName"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle introspection request"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle introspection request"
+			time="0.012"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle Rover introspection request"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle Rover introspection request"
+			time="0.014"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP does not accept a query AST"
+			name="integration tests httpServerTests.ts graphqlHTTP does not accept a query AST"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle batch requests"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle batch requests"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle non-batch requests when allowBatchedHttpRequests is true"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle non-batch requests when allowBatchedHttpRequests is true"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle batch requests with one element"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle batch requests with one element"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns an error on batch requests with no elements"
+			name="integration tests httpServerTests.ts graphqlHTTP returns an error on batch requests with no elements"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle batch requests in parallel"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle batch requests in parallel"
+			time="0.083"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP disables batch requests by default"
+			name="integration tests httpServerTests.ts graphqlHTTP disables batch requests by default"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP clones batch context"
+			name="integration tests httpServerTests.ts graphqlHTTP clones batch context"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP executes batch context if it is a function"
+			name="integration tests httpServerTests.ts graphqlHTTP executes batch context if it is a function"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP can handle a request with a mutation"
+			name="integration tests httpServerTests.ts graphqlHTTP can handle a request with a mutation"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP willSendResponse can be equivalent to the old formatResponse function"
+			name="integration tests httpServerTests.ts graphqlHTTP willSendResponse can be equivalent to the old formatResponse function"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP passes the context to the resolver"
+			name="integration tests httpServerTests.ts graphqlHTTP passes the context to the resolver"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP passes the rootValue to the resolver"
+			name="integration tests httpServerTests.ts graphqlHTTP passes the rootValue to the resolver"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP passes the rootValue function result to the resolver"
+			name="integration tests httpServerTests.ts graphqlHTTP passes the rootValue function result to the resolver"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP returns errors"
+			name="integration tests httpServerTests.ts graphqlHTTP returns errors"
+			time="0.019"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP applies formatError if provided"
+			name="integration tests httpServerTests.ts graphqlHTTP applies formatError if provided"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP formatError receives error that can be unwrapped to pass instanceof checks"
+			name="integration tests httpServerTests.ts graphqlHTTP formatError receives error that can be unwrapped to pass instanceof checks"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP formatError receives error that passes instanceof checks when GraphQLError"
+			name="integration tests httpServerTests.ts graphqlHTTP formatError receives error that passes instanceof checks when GraphQLError"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP GraphQLError HTTP extensions are respected and stripped"
+			name="integration tests httpServerTests.ts graphqlHTTP GraphQLError HTTP extensions are respected and stripped"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP formatError receives correct error for parse failure"
+			name="integration tests httpServerTests.ts graphqlHTTP formatError receives correct error for parse failure"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP allows for custom error formatting to sanitize"
+			name="integration tests httpServerTests.ts graphqlHTTP allows for custom error formatting to sanitize"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP allows for custom error formatting to elaborate"
+			name="integration tests httpServerTests.ts graphqlHTTP allows for custom error formatting to elaborate"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP sends internal server error when formatError fails"
+			name="integration tests httpServerTests.ts graphqlHTTP sends internal server error when formatError fails"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts graphqlHTTP applies additional validationRules"
+			name="integration tests httpServerTests.ts graphqlHTTP applies additional validationRules"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts status code allows setting a custom status code"
+			name="integration tests httpServerTests.ts status code allows setting a custom status code"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery mocked execution basic @defer working"
+			name="integration tests httpServerTests.ts incremental delivery mocked execution basic @defer working"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery mocked execution first payload sent while deferred field is blocking"
+			name="integration tests httpServerTests.ts incremental delivery mocked execution first payload sent while deferred field is blocking"
+			time="0.006"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: undefined"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: undefined"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: application/json"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: application/json"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: multipart/mixed"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: multipart/mixed"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: multipart/mixed; deferSpec=12345"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 errors when @defer is used with accept: multipart/mixed; deferSpec=12345"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 basic @defer working with accept: multipart/mixed; deferSpec=20220824"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 basic @defer working with accept: multipart/mixed; deferSpec=20220824"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 basic @defer working with accept: multipart/mixed; deferSpec=20220824, application/json"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 basic @defer working with accept: multipart/mixed; deferSpec=20220824, application/json"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 basic @defer working with accept: application/json, multipart/mixed; deferSpec=20220824"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 basic @defer working with accept: application/json, multipart/mixed; deferSpec=20220824"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 first payload sent while deferred field is blocking"
+			name="integration tests httpServerTests.ts incremental delivery tests that require graphql@17 first payload sent while deferred field is blocking"
+			time="0"
+		>
+			<skipped/>
+		</testcase>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries when ttlSeconds is set, passes ttl to the apq cache set call"
+			name="integration tests httpServerTests.ts Persisted Queries when ttlSeconds is set, passes ttl to the apq cache set call"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries when ttlSeconds is unset, ttl is not passed to apq cache"
+			name="integration tests httpServerTests.ts Persisted Queries when ttlSeconds is unset, ttl is not passed to apq cache"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries errors when version is not specified"
+			name="integration tests httpServerTests.ts Persisted Queries errors when version is not specified"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries errors when version is unsupported"
+			name="integration tests httpServerTests.ts Persisted Queries errors when version is unsupported"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries errors when hash is mismatched"
+			name="integration tests httpServerTests.ts Persisted Queries errors when hash is mismatched"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries returns PersistedQueryNotFound on the first try"
+			name="integration tests httpServerTests.ts Persisted Queries returns PersistedQueryNotFound on the first try"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries returns result on the second try"
+			name="integration tests httpServerTests.ts Persisted Queries returns result on the second try"
+			time="0.004"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries returns with batched persisted queries"
+			name="integration tests httpServerTests.ts Persisted Queries returns with batched persisted queries"
+			time="0.008"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries returns result on the persisted query"
+			name="integration tests httpServerTests.ts Persisted Queries returns result on the persisted query"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries returns error when hash does not match"
+			name="integration tests httpServerTests.ts Persisted Queries returns error when hash does not match"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts Persisted Queries returns correct result using get request"
+			name="integration tests httpServerTests.ts Persisted Queries returns correct result using get request"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpServerTests.ts gateway execution executor can read and write response HTTP headers and status"
+			name="integration tests httpServerTests.ts gateway execution executor can read and write response HTTP headers and status"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD accept application/graphql-response+json and match the content-type"
+			name="integration tests httpSpecTests.ts SHOULD accept application/graphql-response+json and match the content-type"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST accept application/json and match the content-type"
+			name="integration tests httpSpecTests.ts MUST accept application/json and match the content-type"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD accept */* and use application/json for the content-type"
+			name="integration tests httpSpecTests.ts SHOULD accept */* and use application/json for the content-type"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD assume application/json content-type when accept is missing"
+			name="integration tests httpSpecTests.ts SHOULD assume application/json content-type when accept is missing"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST use utf-8 encoding when responding"
+			name="integration tests httpSpecTests.ts MUST use utf-8 encoding when responding"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST accept utf-8 encoded request"
+			name="integration tests httpSpecTests.ts MUST accept utf-8 encoded request"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST assume utf-8 in request if encoding is unspecified"
+			name="integration tests httpSpecTests.ts MUST assume utf-8 in request if encoding is unspecified"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST accept POST requests"
+			name="integration tests httpSpecTests.ts MUST accept POST requests"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY accept application/x-www-form-urlencoded formatted GET requests"
+			name="integration tests httpSpecTests.ts MAY accept application/x-www-form-urlencoded formatted GET requests"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY NOT allow executing mutations on GET requests"
+			name="integration tests httpSpecTests.ts MAY NOT allow executing mutations on GET requests"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY respond with 4xx status code if content-type is not supplied on POST requests"
+			name="integration tests httpSpecTests.ts MAY respond with 4xx status code if content-type is not supplied on POST requests"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST accept application/json POST requests"
+			name="integration tests httpSpecTests.ts MUST accept application/json POST requests"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code when request body is missing on POST"
+			name="integration tests httpSpecTests.ts MAY use 400 status code when request body is missing on POST"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on missing {query} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on missing {query} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on object {query} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on object {query} parameter"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on number {query} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on number {query} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on boolean {query} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on boolean {query} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on array {query} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on array {query} parameter"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD allow string {query} parameter when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD allow string {query} parameter when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST allow string {query} parameter when accepting application/json"
+			name="integration tests httpSpecTests.ts MUST allow string {query} parameter when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on object {operationName} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on object {operationName} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on number {operationName} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on number {operationName} parameter"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on boolean {operationName} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on boolean {operationName} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on array {operationName} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on array {operationName} parameter"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD allow string {operationName} parameter when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD allow string {operationName} parameter when accepting application/graphql-response+json"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST allow string {operationName} parameter when accepting application/json"
+			name="integration tests httpSpecTests.ts MUST allow string {operationName} parameter when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD allow null {variables} parameter when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD allow null {variables} parameter when accepting application/graphql-response+json"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST allow null {variables} parameter when accepting application/json"
+			name="integration tests httpSpecTests.ts MUST allow null {variables} parameter when accepting application/json"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD allow null {operationName} parameter when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD allow null {operationName} parameter when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST allow null {operationName} parameter when accepting application/json"
+			name="integration tests httpSpecTests.ts MUST allow null {operationName} parameter when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD allow null {extensions} parameter when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD allow null {extensions} parameter when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST allow null {extensions} parameter when accepting application/json"
+			name="integration tests httpSpecTests.ts MUST allow null {extensions} parameter when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on string {variables} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on string {variables} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on number {variables} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on number {variables} parameter"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on boolean {variables} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on boolean {variables} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on array {variables} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on array {variables} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD allow map {variables} parameter when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD allow map {variables} parameter when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST allow map {variables} parameter when accepting application/json"
+			name="integration tests httpSpecTests.ts MUST allow map {variables} parameter when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY allow URL-encoded JSON string {variables} parameter in GETs when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts MAY allow URL-encoded JSON string {variables} parameter in GETs when accepting application/graphql-response+json"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY allow URL-encoded JSON string {variables} parameter in GETs when accepting application/json"
+			name="integration tests httpSpecTests.ts MAY allow URL-encoded JSON string {variables} parameter in GETs when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on string {extensions} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on string {extensions} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on number {extensions} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on number {extensions} parameter"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on boolean {extensions} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on boolean {extensions} parameter"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on array {extensions} parameter"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on array {extensions} parameter"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD allow map {extensions} parameter when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD allow map {extensions} parameter when accepting application/graphql-response+json"
+			time="0"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MUST allow map {extensions} parameter when accepting application/json"
+			name="integration tests httpSpecTests.ts MUST allow map {extensions} parameter when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 4xx or 5xx status codes on JSON parsing failure"
+			name="integration tests httpSpecTests.ts MAY use 4xx or 5xx status codes on JSON parsing failure"
+			time="0.005"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code on JSON parsing failure"
+			name="integration tests httpSpecTests.ts MAY use 400 status code on JSON parsing failure"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 4xx or 5xx status codes if parameters are invalid"
+			name="integration tests httpSpecTests.ts MAY use 4xx or 5xx status codes if parameters are invalid"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts MAY use 400 status code if parameters are invalid"
+			name="integration tests httpSpecTests.ts MAY use 400 status code if parameters are invalid"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use 200 status code on document parsing failure when accepting application/json"
+			name="integration tests httpSpecTests.ts SHOULD use 200 status code on document parsing failure when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use 200 status code on document validation failure when accepting application/json"
+			name="integration tests httpSpecTests.ts SHOULD use 200 status code on document validation failure when accepting application/json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use a status code of 200 on variable coercion failure when accepting application/json"
+			name="integration tests httpSpecTests.ts SHOULD use a status code of 200 on variable coercion failure when accepting application/json"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use 4xx or 5xx status codes on document parsing failure when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD use 4xx or 5xx status codes on document parsing failure when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use 400 status code on document parsing failure when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD use 400 status code on document parsing failure when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD not contain the data entry on document parsing failure when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD not contain the data entry on document parsing failure when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use 4xx or 5xx status codes on document validation failure when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD use 4xx or 5xx status codes on document validation failure when accepting application/graphql-response+json"
+			time="0.001"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use 400 status code on document validation failure when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD use 400 status code on document validation failure when accepting application/graphql-response+json"
+			time="0.003"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD not contain the data entry on document validation failure when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD not contain the data entry on document validation failure when accepting application/graphql-response+json"
+			time="0.002"
+		/>
+		<testcase
+			classname="integration tests httpSpecTests.ts SHOULD use a status code of 400 on variable coercion failure when accepting application/graphql-response+json"
+			name="integration tests httpSpecTests.ts SHOULD use a status code of 400 on variable coercion failure when accepting application/graphql-response+json"
+			time="0.002"
+		/>
+	</testsuite>
+	<testsuite
+		name="fastify specific tests"
+		errors="0"
+		failures="0"
+		skipped="0"
+		timestamp="2025-01-25T13:07:13"
+		time="0.091"
+		tests="2"
+	>
+		<testcase
+			classname="fastify specific tests not passing in a correct instance throws"
+			name="fastify specific tests not passing in a correct instance throws"
+			time="0.007"
+		/>
+		<testcase
+			classname="fastify specific tests not calling start causes a clear error"
+			name="fastify specific tests not calling start causes a clear error"
+			time="0.01"
+		/>
+	</testsuite>
+</testsuites>

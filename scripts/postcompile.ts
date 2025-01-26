@@ -11,8 +11,14 @@ import path from "node:path";
 import { sync } from "rimraf";
 
 // Tell Node what kinds of files the ".js" files in these subdirectories are.
-fs.writeFileSync(path.join("build", "esm", "package.json"), JSON.stringify({ type: "module" }));
-fs.writeFileSync(path.join("build", "cjs", "package.json"), JSON.stringify({ type: "commonjs" }));
+fs.writeFileSync(
+	path.join("build", "esm", "package.json"),
+	JSON.stringify({ type: "module" }),
+);
+fs.writeFileSync(
+	path.join("build", "cjs", "package.json"),
+	JSON.stringify({ type: "commonjs" }),
+);
 
 // Remove CJS .d.ts files: we don"t need two copies!
 // "build/cjs/**/*.d.ts"

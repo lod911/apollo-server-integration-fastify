@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.0.0
+-- **PACKAGE:** Update all packages to the latest versions
+
+
 ## v2.1.1
 
 -- **FIX:** Fix CJS typings by removing redundant `types` field in `package.json#exports` [#268](https://github.com/apollo-server-integrations/apollo-server-integration-fastify/pulls/268)

@@ -1,1 +1,63 @@
-"@oly_op/prettier-config"
+{
+	// Prettier configuration
+	"printWidth": 90,
+	"tabWidth": 2,
+	"useTabs": true,
+	"semi": true,
+	"singleQuote": false,
+	"quoteProps": "preserve",
+	"jsxSingleQuote": false,
+	"trailingComma": "all",
+	"bracketSpacing": true,
+	"bracketSameLine": false,
+	"arrowParens": "avoid",
+	"proseWrap": "preserve",
+	"htmlWhitespaceSensitivity": "ignore",
+	"endOfLine": "lf",
+	"plugins": [
+		"@prettier/plugin-xml",
+		"@trivago/prettier-plugin-sort-imports",
+		"prettier-plugin-java",
+		"prettier-plugin-properties",
+		"prettier-plugin-tailwindcss",
+		"prettier-plugin-sql",
+	],
+
+	// @prettier/plugin-xml
+	"singleAttributePerLine": false,
+	"xmlSelfClosingSpace": false,
+	"xmlWhitespaceSensitivity": "ignore",
+
+	// @trivago/prettier-plugin-sort-imports
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true,
+	"importOrderGroupNamespaceSpecifiers": true,
+	"importOrder": [
+		"^node:(.*)$", // Node.js builtins
+		"<THIRD_PARTY_MODULES>", // Third-party modules
+		"^@/(.*)$", // Internal modules
+		"^[./]", // relative imports
+	],
+
+	// prettier-plugin-properties
+	"keySeparator": "=",
+
+	// prettier-plugin-sql
+	"language": "postgresql",
+	"keywordCase": "upper",
+	"dataTypeCase": "upper",
+	"functionCase": "upper",
+	"identifierCase": "lower",
+	"indentStyle": "standard",
+	"logicalOperatorNewline": "after",
+	"expressionWidth": 85,
+
+	// prettier-plugin-tailwindcss
+	"tailwindAttributes": [
+		"iconClassName",
+		"contentClassName",
+		"textClassName",
+		"modalClassName",
+	],
+	"tailwindFunctions": ["clsx"],
+}

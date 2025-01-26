@@ -26,8 +26,10 @@ interface RouteInterface extends RouteGenericInterface {
 
 export function fastifyApolloHandler<
 	RawServer extends RawServerBase = RawServerDefault,
-	RawRequest extends RawRequestDefaultExpression<RawServer> = RawRequestDefaultExpression<RawServer>,
-	RawReply extends RawReplyDefaultExpression<RawServer> = RawReplyDefaultExpression<RawServer>,
+	RawRequest extends
+		RawRequestDefaultExpression<RawServer> = RawRequestDefaultExpression<RawServer>,
+	RawReply extends
+		RawReplyDefaultExpression<RawServer> = RawReplyDefaultExpression<RawServer>,
 	ContextConfig = ContextConfigDefault,
 	SchemaCompiler extends FastifySchema = FastifySchema,
 	TypeProvider extends FastifyTypeProvider = FastifyTypeProviderDefault,
@@ -48,8 +50,10 @@ export function fastifyApolloHandler<
 export function fastifyApolloHandler<
 	Context extends BaseContext,
 	RawServer extends RawServerBase = RawServerDefault,
-	RawRequest extends RawRequestDefaultExpression<RawServer> = RawRequestDefaultExpression<RawServer>,
-	RawReply extends RawReplyDefaultExpression<RawServer> = RawReplyDefaultExpression<RawServer>,
+	RawRequest extends
+		RawRequestDefaultExpression<RawServer> = RawRequestDefaultExpression<RawServer>,
+	RawReply extends
+		RawReplyDefaultExpression<RawServer> = RawReplyDefaultExpression<RawServer>,
 	ContextConfig = ContextConfigDefault,
 	SchemaCompiler extends FastifySchema = FastifySchema,
 	TypeProvider extends FastifyTypeProvider = FastifyTypeProviderDefault,
@@ -71,8 +75,10 @@ export function fastifyApolloHandler<
 export function fastifyApolloHandler<
 	Context extends BaseContext,
 	RawServer extends RawServerBase = RawServerDefault,
-	RawRequest extends RawRequestDefaultExpression<RawServer> = RawRequestDefaultExpression<RawServer>,
-	RawReply extends RawReplyDefaultExpression<RawServer> = RawReplyDefaultExpression<RawServer>,
+	RawRequest extends
+		RawRequestDefaultExpression<RawServer> = RawRequestDefaultExpression<RawServer>,
+	RawReply extends
+		RawReplyDefaultExpression<RawServer> = RawReplyDefaultExpression<RawServer>,
 	ContextConfig = ContextConfigDefault,
 	SchemaCompiler extends FastifySchema = FastifySchema,
 	TypeProvider extends FastifyTypeProvider = FastifyTypeProviderDefault,
@@ -96,7 +102,8 @@ export function fastifyApolloHandler<
 
 	apollo.assertStarted("fastifyApolloHandler()");
 
-	const defaultContext: ApolloFastifyContextFunction<Context, RawServer> = () => Promise.resolve({} as Context);
+	const defaultContext: ApolloFastifyContextFunction<Context, RawServer> = () =>
+		Promise.resolve({} as Context);
 
 	const contextFunction = options?.context ?? defaultContext;
 
@@ -119,7 +126,7 @@ export function fastifyApolloHandler<
 		}
 
 		const readable = Readable.from(body.asyncIterator);
-		// @ts-ignore something wrong with the `ReplyType` but not sure what
+		// @ts-expect-error something wrong with the `ReplyType` but not sure what
 		return reply.send(readable);
 	};
 }

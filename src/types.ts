@@ -13,13 +13,19 @@ type ValueOrArray<T> = T | T[];
 export type ApolloFastifyContextFunctionArgument<
 	RawServer extends RawServerBase = RawServerDefault,
 	RouteGeneric extends RouteGenericInterface = RouteGenericInterface,
-> = [request: FastifyRequest<RouteGeneric, RawServer>, reply: FastifyReply<RouteGeneric, RawServer>];
+> = [
+	request: FastifyRequest<RouteGeneric, RawServer>,
+	reply: FastifyReply<RouteGeneric, RawServer>,
+];
 
 export type ApolloFastifyContextFunction<
 	Context extends BaseContext,
 	RawServer extends RawServerBase = RawServerDefault,
 	RouteGeneric extends RouteGenericInterface = RouteGenericInterface,
-> = ContextFunction<ApolloFastifyContextFunctionArgument<RawServer, RouteGeneric>, Context>;
+> = ContextFunction<
+	ApolloFastifyContextFunctionArgument<RawServer, RouteGeneric>,
+	Context
+>;
 
 export interface ApolloFastifyHandlerOptions<
 	Context extends BaseContext = BaseContext,

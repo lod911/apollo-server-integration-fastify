@@ -21,11 +21,15 @@ import type {
 export function fastifyApolloDrainPlugin<
 	Context extends BaseContext,
 	RawServer extends RawServerBase = RawServerDefault,
-	RawRequest extends RawRequestDefaultExpression<RawServer> = RawRequestDefaultExpression<RawServer>,
-	RawReply extends RawReplyDefaultExpression<RawServer> = RawReplyDefaultExpression<RawServer>,
+	RawRequest extends
+		RawRequestDefaultExpression<RawServer> = RawRequestDefaultExpression<RawServer>,
+	RawReply extends
+		RawReplyDefaultExpression<RawServer> = RawReplyDefaultExpression<RawServer>,
 	Logger extends FastifyBaseLogger = FastifyBaseLogger,
 	TypeProvider extends FastifyTypeProvider = FastifyTypeProviderDefault,
->(fastify: FastifyInstance<RawServer, RawRequest, RawReply, Logger, TypeProvider>): ApolloServerPlugin<Context> {
+>(
+	fastify: FastifyInstance<RawServer, RawRequest, RawReply, Logger, TypeProvider>,
+): ApolloServerPlugin<Context> {
 	return {
 		async serverWillStart() {
 			return {

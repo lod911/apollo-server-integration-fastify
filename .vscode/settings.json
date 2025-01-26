@@ -1,5 +1,12 @@
 {
 	"files.exclude": {
 		"build": false
-	}
+	},
+	"files.associations": {
+		"*.json5": "jsonc"
+	},
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnType": true
 }

@@ -1,3 +1,12 @@
+# THIS IS A FORK
+
+As the maintenance of the original package is not optimal, I created this fork to keep all included packages up to date with the latest versions.
+
+The updates included new configurations for prettier and lint, which no longer depend on the also partially outdated @oly_op packages. These were either replaced by original ones or removed without replacement.
+
+All Jest tests have been left unchanged and are still passing successfully.
+
+---
 <a href='https://www.apollographql.com/'><img src='https://avatars.githubusercontent.com/u/17189275?s=200' style="border-radius: 6px; margin-right: 6px" height='100' alt='Apollo Server'></a>
 <a href='https://www.fastify.io/'><img src='https://avatars.githubusercontent.com/u/24939410?s=200' style="border-radius: 6px" height='100' alt='Fastify'></a>
 
