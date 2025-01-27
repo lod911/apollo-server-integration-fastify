@@ -1,8 +1,8 @@
 # Changelog
 
 ## v3.0.0
--- **PACKAGE:** Update all packages to the latest versions
 
+-- **PACKAGE:** Update all packages to the latest versions
 
 ## v2.1.1
 

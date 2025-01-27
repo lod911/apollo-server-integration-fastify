@@ -37,7 +37,7 @@ export function fastifyApolloDrainPlugin<
 					// `closeAllConnections` was added in v18.2 - @types/node are v16.
 					if ("closeAllConnections" in fastify.server) {
 						const timeout = setTimeout(() => {
-							// eslint-disable-next-line
+							// eslint-disable-next-line @typescript-eslint/no-explicit-any
 							(fastify.server as any).closeAllConnections();
 						}, 10_000);
 						await fastify.close();

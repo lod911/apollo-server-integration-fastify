@@ -1,5 +1,5 @@
 {
-	"name": "@as-integrations/fastify",
+	"name": "@as-integrations/fastify5",
 	"version": "3.0.0",
 	"description": "An Apollo Server integration for use with Fastify",
 	"license": "MIT",
@@ -7,18 +7,18 @@
 	"main": "build/cjs/index.js",
 	"module": "build/esm/index.js",
 	"types": "build/esm/index.d.ts",
-	"bugs": "https://github.com/apollo-server-integrations/apollo-server-integration-fastify/issues",
-	"homepage": "https://github.com/apollo-server-integrations/apollo-server-integration-fastify/blob/main/readme.md",
+	"bugs": "https://github.com/lod911/apollo-server-integration-fastify/issues",
+	"homepage": "https://github.com/lod911/apollo-server-integration-fastify/blob/main/readme.md",
 	"author": {
 		"name": "Linus",
 		"email": "no@spam.me"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/apollo-server-integrations/apollo-server-integration-fastify.git"
+		"url": "https://github.com/lod911/apollo-server-integration-fastify.git"
 	},
 	"engines": {
-		"node": ">=16"
+		"node": ">=20"
 	},
 	"files": [
 		"build"
@@ -46,7 +46,7 @@
 		"prettier-check": "prettier --check ."
 	},
 	"peerDependencies": {
-		"@apollo/server": "^4.11.3",
+		"@apollo/server": "4.11.3",
 		"fastify": "^5.2.1"
 	},
 	"devDependencies": {
